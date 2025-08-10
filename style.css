@@ -1,0 +1,105 @@
+* {
+  font-family: "Lora", serif;
+}
+.container {
+  position: relative;
+  padding-top: 4rem;
+}
+
+.date-container {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Simple styling for table */
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay-heading {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: #a991d4;
+  /font-weight: bold;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+}
+nav.nav {
+  background-color: #e6e0f8;
+  padding: 0.6rem 1rem;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgba(134, 115, 182, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+nav.nav .nav-link {
+  color: #7b6fbe !important;
+  font-weight: 600;
+  border-radius: 50px !important;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav.nav .nav-link:hover,
+nav.nav .nav-link:focus {
+  background-color: #8c7ae6 !important;
+  color: white !important;
+  box-shadow: 0 4px 8px rgba(134, 115, 182, 0.4);
+}
+
+body {
+  background: #f4f1ff;
+  color: #5c4b8c;
+  text-align: center;
+}
+
+h1.signature {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  color: #7b6fbe;
+  margin-bottom: 0.2rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+  color: #6e63b8;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 40em;
+  height: 28em;
+  border: 4px solid #a991d4;
+  box-shadow: rgba(169, 145, 212, 0.5);
+  border-radius: 10%;
+}
+
+a {
+  color: #8c7ae6 !important;
+}

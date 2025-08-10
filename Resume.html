@@ -3,9 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Resume - Diana Lozano</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    |
+    <header>
+      <nav>
+        <header>
+          <nav class="nav nav-pills nav-fill">
+            <a
+              class="flex-sm-fill text-sm-center nav-link"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="flex-sm-fill text-sm-center nav-link"
+              href="cover_letter.html"
+              >Cover letter</a
+            >
+            <a
+              class="flex-sm-fill text-sm-center nav-link"
+              href="career_goals.html"
+              >Career goals</a
+            >
+        
+      </nav>
+    </header>
+
+    <main>
+
+      <h2><strong>Diana Lozano</strong></h2>
+        <h3><em>Software Developer</em></h3>
+        <h3>Toronto, ON | <span>dlozan14@wgu.edu</span></h3>
+        <div class="date-container">
+          Last Updated: <span id="currentDate"></span>
+        </div>
+      <hr />
+      <!-- Skills -->
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>
+            <strong>Front-End:</strong> HTML, CSS, JavaScript, React, jQuery,
+            Bootstrap
+          </li>
+          <li>
+            <strong>Back-End:</strong> Node.js, Python, Flask, SQL, PostgreSQL
+          </li>
+          <li>
+            <strong>Tools & Technologies:</strong> Git, GitHub, Linux Basics,
+            RESTful APIs, Unit Testing, Integration Testing
+          </li>
+          <li>
+            <strong>Other:</strong> Technical Documentation, Troubleshooting,
+            Debugging, Collaboration, Friendly, Communication
+          </li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <!-- Projects -->
+      <section>
+        <h3>Projects / Personal Experience</h3>
+
+        <article>
+          <p>
+            <strong>Doculab:</strong> A Laboratory Documentation website
+            inspired by my paperwork-based laboratory.<br />
+            <em>Technologies:</em> HTML, CSS, React, Express.js, PostgreSQL<br />
+            <em>Highlights:</em> Developed a user-friendly interface for lab
+            analysts to document work and generate reports automatically.
+          </p>
+        </article>
+
+        <article>
+          <p>
+            <strong>BudgetBase:</strong> A Budget web application for users to
+            create budgets and track their finances.<br />
+            <em>Technologies:</em> HTML, CSS, JavaScript, Bootstrap, Flask,
+            Flask-WTF, Flask-SQLAlchemy, PostgreSQL<br />
+            <em>Highlights:</em> Implemented secure user authentication and
+            dynamic budget tracking features.
+          </p>
+        </article>
+
+        <article>
+          <p>
+            <strong>Jobly:</strong> An application for users to explore
+            companies and job postings, with functionality to apply for jobs.<br />
+            <em>Technologies:</em> HTML, CSS, React, Express.js, PostgreSQL<br />
+            <em>Highlights:</em> Designed an intuitive job search and
+            application system, enhancing user experience and engagement.
+          </p>
+        </article>
+
+        <article>
+          <p>
+            <strong>Warbler:</strong> A Twitter clone developed with a partial
+            database and project structure provided by SpringBoard.<br />
+            <em>Technologies:</em> HTML, CSS, Flask, Flask-SQLAlchemy,
+            PostgreSQL<br />
+            <em>Highlights:</em> Added real-time notifications and user
+            interactions.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Professional Experience -->
+      <section>
+        <h3>Professional Experience</h3>
+        <article>
+          <p>
+            <strong>Microbiology Analyst</strong>, Nucro-Technics | Toronto,
+            Ontario <span>(Dec 2019 – Present)</span>
+          </p>
+          <ul>
+            <li>
+              Pitched the use of digital software and cloud services (AWS) to
+              improve the paperwork system
+            </li>
+            <li>
+              Investigated and documented deviations and out-of-specification
+              reports
+            </li>
+            <li>
+              Created reports using software tools to analyze data from
+              antibiotic tests and Environmental Monitoring results
+            </li>
+            <li>
+              Performed multiple tests on pharmaceuticals such as sterility,
+              microbial count, antibiotic concentration assay, endotoxin levels,
+              and more
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Education Table -->
+      <section>
+        <h3>Education</h3>
+        <table>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Bachelor’s in Software Engineering</td>
+            <td>Western Governors University</td>
+            <td>Online</td>
+            <td>2027</td>
+          </tr>
+          <tr>
+            <td>Software Engineering Bootcamp</td>
+            <td>SpringBoard</td>
+            <td>Online</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Biotechnology</td>
+            <td>Centennial College</td>
+            <td>Toronto, ON</td>
+            <td>2019</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Diana Lozano — Crafted with 💜 and curiosity</p>
+    </footer>
+
+    <script>
+      // Display current date
+      document.getElementById("currentDate").textContent =
+        new Date().toLocaleDateString();
+
+      // Console message
+      console.log("Welcome to my resume page! 🚀");
+    </script>
   </body>
 </html>
