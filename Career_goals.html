@@ -4,32 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume - Diana Lozano</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
   </head>
   <body>
     <header>
       <nav>
         <header>
-          <nav class="nav nav-pills nav-fill">
+          <nav >
             <a
-              class="flex-sm-fill text-sm-center nav-link"
               aria-current="page"
               href="index.html"
               >Home</a
             >
               <a
-              class="flex-sm-fill text-sm-center nav-link"
               href="resume.html"
               >Resume</a
             >
             <a
-              class="flex-sm-fill text-sm-center nav-link"
               href="cover_letter.html"
               >Cover letter</a
             >
@@ -39,60 +37,62 @@
     </header>
    
     
-    <main class="container py-4">
-      <h1 class="text-center mb-4">My Career Goals</h1>
-      <p class="lead text-center">
+    <main >
+      <h1 class="text-center">My Career Goals</h1>
+      <p class="text-center">
         I aspire to combine creativity, technology, and problem-solving to build applications that make life easier, more beautiful, and more connected.
       </p>
+      <div>
+        <img src="melissa-askew-tSlvoSZK77c-unsplash.jpg" width="480"/>
 
-      <!-- Audio -->
-      <div class="text-center my-4">
-        <audio autoplay controls>
+      </div>
+
+      <div class="text-center">
+        <audio controls>
           <source src="jazzy-focus-1-lofi-jazz-371178.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
         </audio>
       </div>
 
-      <!-- Video -->
-      <div class="text-center my-4">
+
+      <div class="text-center">
         <video width="480" controls>
           <source src="7989700-hd_1920_1080_25fps.mp4" type="video/mp4">
         </video>
       </div>
 
-      <hr class="my-5">
+      <hr>
 
-      <!-- Contact Form -->
+
       <section>
-        <h2 class="mb-3">Contact Me</h2>
-        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" class="p-4 rounded shadow-sm" style="background-color: #f5f0fa;">
+        <h2 >Contact Me</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" style="background-color: #f5f0fa;">
           <div class="mb-3">
             <label for="fname" class="form-label">First Name</label>
-            <input type="text" id="fname" name="fname" class="form-control" required>
+            <input type="text" id="fname" name="fname"  required>
           </div>
           <div class="mb-3">
             <label for="lname" class="form-label">Last Name</label>
-            <input type="text" id="lname" name="lname" class="form-control" required>
+            <input type="text" id="lname" name="lname" required>
           </div>
           <div class="mb-3">
             <label for="company" class="form-label">Company Name</label>
-            <input type="text" id="company" name="company" class="form-control">
+            <input type="text" id="company" name="company" >
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email Address</label>
-            <input type="email" id="email" name="email" class="form-control" required>
+            <input type="email" id="email" name="email" required>
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" id="phone" name="phone" class="form-control">
+            <input type="tel" id="phone" name="phone" >
           </div>
-          <div class="mb-3">
+          <div >
             <label for="message" class="form-label">Message</label>
-            <textarea id="message" name="message" rows="4" class="form-control"></textarea>
+            <textarea id="message" name="message" rows="3" ></textarea>
           </div>
 
-          <!-- Best Contact Time -->
-          <fieldset class="mb-3">
+  
+          <fieldset>
             <legend class="form-label">Best Contact Time</legend>
             <div>
               <input type="radio" id="am" name="contact_time" value="am">
@@ -108,26 +108,29 @@
             </div>
           </fieldset>
 
-          <!-- Preferred Contact Method -->
+          
           <div class="mb-3">
-            <label for="contact_method" class="form-label">Preferred Contact Method</label>
-            <select id="contact_method" name="contact_method" class="form-select">
+            <label for="contact_method" >Preferred Contact Method</label>
+            <select id="contact_method" name="contact_method">
               <option value="phone">Phone</option>
               <option value="email">Email</option>
               <option value="text">Text</option>
             </select>
           </div>
 
-          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="submit">Send</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Diana Lozano — Crafted with 💜 and curiosity</p>
+      <p>
+        <mark class="crafted"
+          >&copy; 2025 Diana Lozano — Crafted with 💜 and curiosity</mark
+        >
+      </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
   </body>
 </html>
