@@ -103,3 +103,7 @@ h1.signature {
 a {
   color: #8c7ae6 !important;
 }
+
+.left-aligned-text {
+  text-align: left;
+}
